@@ -1,17 +1,74 @@
-body { 
-    background-color: grey;
+
+body {
+background: #777777;
+width: 960px;
+font-size: 18px;
+margin: auto;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3, h4 {
-  color: black;
-  font-family: verdana;
-  font-size: 300%;
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #333;
+  background: #ebebeb;
+  text-align: center;
 }
 
-table {
-    border: 1px solid grey
-  }
+nav {
+  background: #ebebeb;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+}
 
-table tr {
-    background-color: lightgrey
+section {
+background-color: #eee;
+padding: 20px;
+width: 50%;
+text-align: center;
+}
+
+article {
+  color: #ebebeb;
+  padding: 20px;
+  text-align: center;
+  overflow: auto;
+  background: #777777;
+}
+
+h1 {
+  color: #777777;
+  background: #ebebee;
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+background: #ebebeb;
+color: #777777;
+padding: 20px;
+margin-top: 20px;
+}
+
+aside {
+background: #ebebeb;
+width: 30%;
+text-align: center;
+padding: 60px;
+float: right;
+}
+
+footer {
+  background: #ebebeb;
+  clear: both;
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding: 40px;
+  position: relative;
+  top: 20px;
+  float: bottom;
+  text-align: center;
+
 }
